@@ -4,7 +4,7 @@
 An analysis of credit risk was done using data from LendingClub. Due to the imbalanced nature of classifying fraud, multiple techniques were used to resample the data before training and evaluating multiple models. The imbalanced-learn and scikit-learn python libraries were used to conduct these analyses. The resampling algorithms used were: RandomOversampler, SMOTE, ClusterCentroids, SMOTEENN. The ensemble learing algorithms used were: BalancedRandomForestClassifier and EasyEnsembleClassifier.
 
 ## Results 
-### Resampling (Logistic Regression learning)
+### Resampling (Logistic Regression Learning)
 #### RandomOverSampler
 - Balanced accuracy score: 
 - Precision score: 0.64
@@ -62,3 +62,4 @@ An analysis of credit risk was done using data from LendingClub. Due to the imba
   
 ## Summary
 
+The EasyEnsembleClassifier had the highest scores for balanced accuracy (0.93), precision (for high risk), and recall (both low and high risk).
